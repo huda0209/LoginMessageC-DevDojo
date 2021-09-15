@@ -1,0 +1,18 @@
+name: LoginMessageC-DevDojo
+version: '${version}'
+main: com.github.huda0209.loginmessagecdevdojo.LoginMessageCDevDojo
+prefix: LoginMessageC-DevDojo
+authors: [ huda0209 ]
+commands:
+  loginmessage:
+    description: LoginMessageC-DevDojo plugin command.
+    usage:
+      /loginmessage addline <message> - Add a massage to the last law.
+      /loginmessage removeline <index> - Remove a massage to the specified index.
+      /loginmessage setline <index> <message> - Set a massage to the specified index.
+      /loginmessage show - Show login messages.
+      /loginmessage reload - Reload the config file.
+    permission-message: &cYou don't have a permission!
+permissions:
+  LoginMessageCDevDojo.command:
+    default: op

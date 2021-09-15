@@ -1,0 +1,15 @@
+
+#  ------------------------------------------------------------
+#  |                LoginMessageC-DevDojo plugin              |
+#  |                                                          |
+#  |                     Author : huda0209                    |
+#  |                       Depend :                           |
+#  | GitHub : https://github.com/huda0209/LoginMessageCDevDojo|
+#  |                     ran by paper 1.12                    |
+#  ------------------------------------------------------------
+
+
+LoginMessages:
+  - a
+  - b
+  - c
